@@ -115,38 +115,38 @@ keybinding:
     togglePanel: '<tab>' # goto the next panel
     prevItem: '<up>' # go one line up
     nextItem: '<down>' # go one line down
-    prevItem-alt: 'k' # go one line up
-    nextItem-alt: 'j' # go one line down
+    prevItem-alt: 'e' # go one line up
+    nextItem-alt: 'n' # go one line down
     prevPage: ',' # go to next page in list
     nextPage: '.' # go to previous page in list
     gotoTop: '<' # go to top of list
     gotoBottom: '>' # go to bottom of list
-    scrollLeft: 'H' # scroll left within list view
-    scrollRight: 'L' # scroll right within list view
+    scrollLeft: 'M' # scroll left within list view
+    scrollRight: 'I' # scroll right within list view
     prevBlock: '<left>' # goto the previous block / panel
     nextBlock: '<right>' # goto the next block / panel
-    prevBlock-alt: 'h' # goto the previous block / panel
-    nextBlock-alt: 'l' # goto the next block / panel
+    prevBlock-alt: 'm' # goto the previous block / panel
+    nextBlock-alt: 'i' # goto the next block / panel
     jumpToBlock: ['1', '2', '3', '4', '5'] # goto the Nth block / panel
-    nextMatch: 'n'
-    prevMatch: 'N'
+    nextMatch: 'j'
+    prevMatch: 'J'
     optionMenu-alt1: '?' # show help menu
     select: '<space>'
     goInto: '<enter>'
     openRecentRepos: '<c-r>'
     confirm: '<enter>'
     remove: 'd'
-    new: 'n'
-    edit: 'e'
+    new: 'j'
+    edit: 'k'
     openFile: 'o'
     scrollUpMain: '<pgup>' # main panel scroll up
     scrollDownMain: '<pgdown>' # main panel scroll down
-    scrollUpMain-alt1: 'K' # main panel scroll up
-    scrollDownMain-alt1: 'J' # main panel scroll down
+    scrollUpMain-alt1: 'E' # main panel scroll up
+    scrollDownMain-alt1: 'N' # main panel scroll down
     scrollUpMain-alt2: '<c-u>' # main panel scroll up
     scrollDownMain-alt2: '<c-d>' # main panel scroll down
     executeCustomCommand: ':'
-    createRebaseOptionsMenu: 'm'
+    createRebaseOptionsMenu: 'h'
     pushFiles: 'P'
     pullFiles: 'p'
     refresh: 'R'
@@ -179,7 +179,7 @@ keybinding:
     commitChangesWithEditor: 'C'
     findBaseCommitForFixup: '<c-f>'
     confirmDiscard: 'x'
-    ignoreFile: 'i'
+    ignoreFile: 'l'
     refreshFiles: 'r'
     stashAllChanges: 's'
     viewStashOptions: 'S'
@@ -187,7 +187,7 @@ keybinding:
     viewResetOptions: 'D'
     fetch: 'f'
     toggleTreeView: '`'
-    openMergeTool: 'M'
+    openMergeTool: 'H'
     openStatusFilter: '<c-b>'
   branches:
     createPullRequest: 'o'
@@ -196,8 +196,8 @@ keybinding:
     forceCheckoutBranch: 'F'
     rebaseBranch: 'r'
     renameBranch: 'R'
-    mergeIntoCurrentBranch: 'M'
-    viewGitFlowOptions: 'i'
+    mergeIntoCurrentBranch: 'H'
+    viewGitFlowOptions: 'l'
     fastForward: 'f' # fast-forward this branch from its upstream
     createTag: 'T'
     pushTag: 'P'
@@ -233,6 +233,6 @@ keybinding:
     toggleSelectHunk: 'a'
     pickBothHunks: 'b'
   submodules:
-    init: 'i'
+    init: 'l'
     update: 'u'
     bulkMenu: 'b'
